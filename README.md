@@ -15,7 +15,9 @@
   N/A
 
   ## Usage
-  Play the game <a href="">here</a>. Click on the moles and avoid the piranha plant! Your score will increase every time you correctly click on a mole, and the game will be over if you accidentally click on a piranha plant. Reset the game as many times you want to try to get a high score! 
+  Play the game <a href="https://bethanyproctor.github.io/wack-a-mole/">here</a>. Click on the moles and avoid the piranha plant! Your score will increase every time you correctly click on a mole, and the game will be over if you accidentally click on a piranha plant. Reset the game as many times you want to try to get a high score!   
+  ![image](https://github.com/user-attachments/assets/1f139296-1990-480c-a0c5-ad11235928dd)
+
   </br>
   Languages : HTML, CSS, JavaScript
 
