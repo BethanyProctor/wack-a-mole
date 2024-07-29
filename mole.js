@@ -66,6 +66,11 @@ function setPlant() {
     currentPlantTile.appendChild(plant);
 }
 
+//reload the page on a click
+function handleClick() {
+    window.location.reload();
+}
+
 //check if the tile clicked has the mole
 function selectTile() {
     if (gameOver) {
@@ -78,5 +83,9 @@ function selectTile() {
     } else if (this == currentPlantTile) {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString();
         gameOver = true;
+        let resetBtn = document.createElement("button");
+        resetBtn.innerText = "TRY AGAIN";
+        document.getElementById("score").appendChild(resetBtn);
+        resetBtn.addEventListener("click", handleClick);
     }
 }
