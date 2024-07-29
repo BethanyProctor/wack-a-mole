@@ -27,6 +27,10 @@ function getRandomTile() {
 }
 
 function setMole() {
+    if (gameOver) {
+        return;
+    }
+
     if (currentMoleTile) {
         currentMoleTile.innerHTML = "";
     }
@@ -43,6 +47,10 @@ function setMole() {
 }
 
 function setPlant() {
+    if (gameOver) {
+        return;
+    }
+
     if (currentPlantTile) {
         currentPlantTile.innerHTML = "";
     }
@@ -60,10 +68,15 @@ function setPlant() {
 
 //check if the tile clicked has the mole
 function selectTile() {
+    if (gameOver) {
+        return;
+    }
+
     if (this == currentMoleTile) {
         score += 10;
         document.getElementById("score").innerText = score.toString();
     } else if (this == currentPlantTile) {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString();
+        gameOver = true;
     }
 }
