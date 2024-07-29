@@ -20,7 +20,7 @@
   Languages : HTML, CSS, JavaScript
 
   ## Credits
-  For this project, including a tutorial and the images, I used <a href="https://youtu.be/ej8SatOj3V4?si=QHVy_sf4HfhWZpgM">this video</a> by Kenny Yip Coding on YouTube.
+  For this project, including a tutorial and the images, I used <a href="https://youtu.be/ej8SatOj3V4?si=QHVy_sf4HfhWZpgM">this video</a> by Kenny Yip Coding on YouTube along with his <a href="https://github.com/ImKennyYip/whac-a-mole">GitHub repo here.</a>
 
   ## Contact Me
   Find me on GitHub: BethanyProctor
